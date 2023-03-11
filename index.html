@@ -3,16 +3,16 @@
 <head>
     <link rel="stylesheet" href="css/index-styles.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Fidel Agade Isaboke">
     <meta name="description" content="Famous sporting events">
     <title>Sport Events</title>
 </head>
 <body>
-    <!--Adding a title for the webpage-->
+
     <header id="page-header">
-        <h1>Famous Sport Events</h1>
+        <h1 id="page-title">Famous Sport Events</h1>
         <hr>
         <nav id="page-nav">
             <ul>
@@ -38,20 +38,49 @@
 
                 <aside>
                     <h3>Sport</h3>
-                    <span>A physical activity involving a competition between individuals, or teams.</span><br>
+                    <span>A physical activity involving a <mark>competition</mark> between individuals, or teams.</span><br>
                     <a href="https://en.wikipedia.org/wiki/Sport" target="_blank">More on sport.</a>
                 </aside>
             </section>
             
             <section id="events-section">
-                <h2 is="events">Sport Events</h2>
+                <h2 id="events">Sport Events</h2>
                 <p>There are various sporting events that really stand out for me:</p>
                 <ol>
-                    <li><a href="#champions-league">Football: UEFA Champions League</a></li>
+                    <li><a href="#champions-league">UEFA Champions League</a></li>
+                    <li><a href="fifa-wc">FIFA World Cup</a></li>
                     <li><a href="#olympics">The Olympic Games</a></li>
                     <li><a href="#world-championships">World Athletics Championships</a></li>
                 </ol>
             </section>
+
+            <section id="champions-league-section">
+                <h3 id="champions-league">UEFA Champions League</h3>
+                <p>This annual football event involves the biggest football clubs in Europe clashing against each other.<br>
+                It's always great to see the big clubs contest for the most desired title in Europe!<br>
+                Another amazing thing is the incredible anthem played before every game. I hope that they <em>never</em> change it!
+                </p>
+
+                <section id="champions-league-media" class="media">
+                    <figure class="images" id="champions-league-trophy">
+                        <img alt="UEFA CL Logo" title="Champions League Logo" src="img/uefa_cl_trophy.png" width="512" height="288">
+                        <figcaption>Fig. 1: UEFA Champions League</figcaption>
+                    </figure>
+                    
+                    <figure class="videos">
+                        <video class="article-videos" id="uefa-cl-video" controls width="512" height="288">
+                            <source src="https://youtu.be/msNV-wbRLvI" type="video/mp4">
+                            Video not supported.
+                        </video>
+                        <figcaption>Video 1: UEFA Champions League explained</figcaption>
+                    </figure>
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/UEFA_Champions_League">Read more on the UEFA Champions League</a>
+                    
+                </section>
+                
+            </section>
+
         </article>
     </main>
     
